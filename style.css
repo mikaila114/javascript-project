@@ -10,7 +10,7 @@ body {
 }
 @media(max-width: 1200px){
     .main-container {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns:repeat(6, 1fr);
     }
 }
 @media(max-width: 1050px){
@@ -45,4 +45,8 @@ body {
     max-width: 200px;
     min-height: 150px;
     padding: 0.5em 2em;
+}
+.add-to-cart {
+    background: #004a4d;
+    color: white;
 }
