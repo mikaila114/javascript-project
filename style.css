@@ -40,13 +40,18 @@ body {
 }
 .inner-container {
     background: red;
-    border-right: 1.5px solid black;
-    border-bottom: 1.5px solid black;
+    border-right: 1.5px solid #dbdbdb;
+    border-bottom: 1.5px solid #dbdbdb;
     max-width: 200px;
     min-height: 150px;
     padding: 0.5em 2em;
+    color: #dbdbdb;
 }
 .add-to-cart {
     background: #004a4d;
-    color: white;
+    color: #dbdbdb;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer
 }
