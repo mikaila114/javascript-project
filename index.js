@@ -59,7 +59,7 @@ button.addEventListener('click', () => {
     const productName = button.dataset.productName;
     const productPrice = button.dataset.productPrice;
 
-    alert(`You Click: ${productName}, price: $${(Number(productPrice)/100) .toFixed()}`);
+    alert(`You Click: ${productName}, price: $${(Number(productPrice)/100).toFixed(3)}`);
 
 })
     });
